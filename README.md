@@ -10,6 +10,14 @@
 ### Recommend but not required
 - [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs)
 
+## Creating a scythe
+```js
+// Inside startup_scripts, this will create a scythe with no texture named 'kubejs:test_scythe'
+StartupEvents.registry("item", (event) => {
+    event.create("test_scythe", "scythe");
+});
+```
+
 ## Credits
 [FooterMan15](https://github.com/FooterMan15) - KubeJS mod Addon template + PaxelJS references
 
