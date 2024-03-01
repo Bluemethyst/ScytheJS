@@ -24,6 +24,21 @@ loom {
 }
 
 repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
+
+    maven {
+        url 'https://maven.blakesmods.com'
+    }
     maven {
         name = "Dan's Maven (Architectury)"
         url = "https://maven.architectury.dev"
@@ -55,6 +70,9 @@ dependencies {
     /* These extras are !required! for KubeJS to work! */
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.2"))
     implementation(include("io.github.llamalad7:mixinextras-forge:0.3.2"))
+    modImplementation('com.blakebr0.cucumber:Cucumber:1.20.1-7.0.7')
+    modImplementation("maven.modrinth:probejs:6.0.0-forge")
+
 }
 
 processResources {

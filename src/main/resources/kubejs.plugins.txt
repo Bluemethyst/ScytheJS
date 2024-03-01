@@ -1,1 +1,1 @@
-com.example.exampleaddon.kubejs.ExampleKubeJSPlugin
+dev.bluemethyst.scythejs.kubejs.Plugin
