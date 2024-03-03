@@ -1,3 +1,5 @@
+# ARCHIVED AND MOVED TO https://github.com/Bluemethyst/CucumberJS
+
 ![CurseForge Downloads](https://img.shields.io/curseforge/dt/981423) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/uhFMFB46)
 # ScytheJS
 ### A KubeJS addon for creating [Cucumber Library](https://github.com/BlakeBr0/Cucumber) scythes. That's it. idk why you'd need this
